@@ -1,4 +1,3 @@
-```java id="y5x3qp"
 import java.io.*;
 
 class DirectoryFileNames
