@@ -6,7 +6,7 @@ class Ques95
     {
         int iNo = 0;
         int iNum = 0;
-        long iSroot = 0;
+        long iSquareroot = 0;
 
         Scanner sobj = new Scanner(System.in);
 
@@ -15,9 +15,9 @@ class Ques95
 
         iNum = iNo + 1;
 
-        iSroot = (int)Math.sqrt(iNum);
+        iSquareroot = (int)Math.sqrt(iNum);
 
-        if(iSroot % 1 == 0){
+        if(iSquareroot * iSquareroot == iNum){
             System.out.println("It is a Sunny number.");
         }else{
             System.out.println("It is not a Sunny number.");
