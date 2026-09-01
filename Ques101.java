@@ -33,7 +33,7 @@ class Ques101
         
         for(char cValue : hobj.keySet())
         {
-            System.out.println(cValue+" -> "+hobj.get(cValue));    
+            System.out.println(cValue+" -> "+hobj.get(cValue));  
         }
     }
 }
